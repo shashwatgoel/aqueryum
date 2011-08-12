@@ -1,3 +1,4 @@
+#labels Phase-Requirements
 •        Deployment in institute(self)
 •        Can be used in other colleges
 •        Can be put into use in seminars/professional workshops
