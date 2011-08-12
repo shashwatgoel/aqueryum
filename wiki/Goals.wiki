@@ -1,0 +1,12 @@
+#labels Phase-Design,Featured
+== The following is a brief layout highlighting the goals and objectives of this system ==
+
+    # Reducing Manpower
+    # Reducing Time Wastage
+    # Better Organization
+    # Making System Compact
+    # Maximizing the utilization of the given time spectrum
+    # Easy access to target audience and staff
+    # Getting to know the perception of the audience towards the speaker/organisation
+    # Non-disruption of current speaker by ambiguity and totally random questions asked by audience
+    # Reducing the confusion between the audience
