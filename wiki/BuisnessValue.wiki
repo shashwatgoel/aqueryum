@@ -1,5 +1,5 @@
-#labels Phase-Requirements
-#  Deployment in institute(self)
-#  Can be used in other colleges
-#  Can be put into use in seminars/professional workshops
-#  Can be used in press conferences, where the time is less and queries are more
+#labels Phase-Requirements,Featured
+  #  Deployment in institute(self)
+  #  Can be used in other colleges
+  #  Can be put into use in seminars/professional workshops
+  #  Can be used in press conferences, where the time is less and queries are more
