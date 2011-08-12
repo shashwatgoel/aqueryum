@@ -1,12 +1,12 @@
 #labels Phase-Design,Featured
 == The following is a brief layout highlighting the goals and objectives of this system ==
 
-#•	Reducing manpower
-#•	Better organisation
-#•	Making system compact
-#•	Less time wastage
-#•	Easy access for students/staff
-#•	Making most of the limited time available.
-#•	Getting to know the perception of the audience towards the speaker/organisation
-#•	Non-disruption of current speaker by ambiguant and totally random question asked by audience member
-#•	Reducing the confusion between the audience.
+  # Reducing manpower
+  # Better organisation
+  # Making system compact
+  # Less time wastage
+  # Easy access for students/staff
+  # Making most of the limited time available.
+  # Getting to know the perception of the audience towards the speaker/organisation
+  # Non-disruption of current speaker by ambiguant and totally random question asked by audience member
+  # Reducing the confusion between the audience.
