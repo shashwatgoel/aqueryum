@@ -1,0 +1,9 @@
+== Introduction ==
+
+We intend to create a solution for an unnoticeable but a rather prevalent and time consuming problem - the Question and Answer session of a seminar. 
+
+== Details ==
+
+We are trying to address the problem at a meta-level at present - i.e the IIIT-D Admission counseling and workshops/seminars at IIIT-D. At present, these events are generally followed by a very disorganized Q&A sessions.The reasons for the time constraint being time taken in circulation of the mike amongst audience, irrelevant questions taking more time and questions of majority concern sometimes left unanswered. The motivation of this software lies in this problem because time limit for the Q&A session is fixed in any event and this session is usually the last section of any seminar, thereby time is a big constraint. Our product aims at streamlining the whole procedure by prioritizing questions of most concern of audience and maximizing the judicious utilization of the given time limit. 
+
+_Thus, we propose to create a solution to the above problem using a most suitable, simple, and usable approach and also incorporating concepts used in present day design methodologies of software engineering._
