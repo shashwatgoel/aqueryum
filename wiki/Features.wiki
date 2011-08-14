@@ -1,0 +1,8 @@
+#labels Featured,Phase-Design
+* Automated System that takes user queries as input(through SMS) and answers queries.
+
+* Answers questions of maximum concern of the audience first
+
+* Prioritizes questions according to audience concern in real time
+
+Additional Feature: Creates a list of most asked questions so that these questions can be used as Frequently Asked Questions(FAQs) for other counselings and seminars.
