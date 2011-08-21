@@ -1,0 +1,12 @@
+#summary The identity of the user remains anonymous
+#labels Featured
+
+== Details ==
+
+Many a times it happens that the user hesitates to ask a certain question assuming that he will be mocked at for asking such and such a question.
+
+With this system, though *not initially planned*, but we aim to counter that problem of _user fear_ as well.
+
+We wont be storing the sender user's phone number with which he sends the SMS. 
+
+This also gives us a clean chit in the user's eyes as it also convinces them that we wont be using their numbers for selling it off to advertisers for the purpose of bulk messaging and SMS Spam for promotional purposes.
