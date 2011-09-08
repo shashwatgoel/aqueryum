@@ -1,0 +1,8 @@
+#summary How current Software Architecture of the system was decided upon
+#labels Featured
+
+= Introduction =
+
+After going through many architecture styles, analysing their pros and cons, looking at the individual benefits each one of them provided, assessing their reusabilty and gauging different features about them including security, modifiability, performance etc we finally decided to use - Pipe and Filter architecture style.
+
+A pdf document titled 'Software Architecture' has been uploaded in the downloads section wherein you can find all the details related to and about the architecture tried for our system and the reasons for finalizing Pipe-and-Filter architecture style.
