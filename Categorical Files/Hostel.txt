@@ -5,3 +5,11 @@ facility
 campus
 arrangement
 residence
+
+hostel?
+stay?
+staying?
+facility?
+campus?
+arrangement?
+residence?

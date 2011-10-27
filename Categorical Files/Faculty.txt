@@ -6,9 +6,24 @@ many
 qualification
 qualifications
 RA
-Research Assistantship
+ResearchAssistantship
+Research-Assistantship
 absence
 leave
 visiting
 adjunct
 
+faculty?
+position?
+degree?
+how?
+many?
+qualification?
+qualifications?
+RA?
+Research-Assistantship?
+ResearchAssistantship?
+absence?
+leave?
+visiting?
+adjunct?

@@ -1,0 +1,17 @@
+Attendance
+regularity
+compulsory
+attendance
+presence
+class
+up-down
+regular
+
+Attendance?
+regularity?
+compulsory?
+attendance?
+presence?
+class?
+up-down?
+regular?
