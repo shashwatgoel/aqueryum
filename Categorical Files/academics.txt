@@ -1,0 +1,24 @@
+degree
+BTech
+MTech
+PhD
+research
+education program
+teaching institute
+management structure
+load
+overload
+cocurricular
+time table
+schedule
+timing
+timings
+homework
+semester
+assignment
+exams
+midterm
+endterm
+final exam
+project
+internship

@@ -1,0 +1,14 @@
+faculty
+position
+degree
+how
+many
+qualification
+qualifications
+RA
+Research Assistantship
+absence
+leave
+visiting
+adjunct
+
