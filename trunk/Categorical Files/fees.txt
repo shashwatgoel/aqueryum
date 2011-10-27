@@ -1,13 +1,29 @@
 fees
-fee waiver
+feewaiver
+fee-waiver
 stipend
 proficiency
 merit
 scholarship
 income
-Income Linked Scholarship Scheme
+Scheme
 assistantship
 tution waiver
-collaborative PhD
-sposored PhD
+collaborative
+sposored
 fund
+
+fees?
+feewaiver?
+fee-waiver?
+stipend?
+proficiency?
+merit?
+scholarship?
+income?
+Scheme?
+assistantship?
+tution waiver?
+collaborative?
+sposored?
+fund?

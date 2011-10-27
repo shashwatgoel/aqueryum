@@ -3,13 +3,16 @@ BTech
 MTech
 PhD
 research
-education program
-teaching institute
-management structure
+education
+program
+teaching 
+institute
+management 
+structure
 load
 overload
 cocurricular
-time table
+timetable
 schedule
 timing
 timings
@@ -19,6 +22,54 @@ assignment
 exams
 midterm
 endterm
-final exam
+finalexam
 project
 internship
+academics
+study
+gpa
+cgpa
+sgpa
+grades
+qualification
+homeworks
+assignments
+work
+
+degree?
+BTech?
+MTech?
+PhD?
+research?
+education?
+program?
+teaching?
+institute?
+management? 
+structure?
+load?
+overload?
+cocurricular?
+timetable?
+schedule?
+timing?
+timings?
+homework?
+semester?
+assignment?
+exams?
+midterm?
+endterm?
+finalexam?
+project?
+internship?
+academics?
+study?
+gpa?
+cgpa?
+sgpa?
+grades?
+qualification?
+homeworks?
+assignments?
+work?
