@@ -36,10 +36,16 @@ public class Testing extends TestCase {
 	}
 	public void testEquals() {
 		assertFalse(abc.equals(def));
+		assertTrue(abc.equals(abc));
 	}
+/*	public void testCompare()
+	{
+		assertTrue(abc.compare(abc));
+	}*/
 	public static Test suite(){
 		TestSuite suite = new TestSuite();
 		suite.addTest(new Testing("testEquals"));
+//		suite.addTest(new Testing("testCompare"));
 		return suite;
 	}
 

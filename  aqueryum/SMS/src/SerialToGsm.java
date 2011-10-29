@@ -29,9 +29,7 @@ public class SerialToGsm {
     	java.io.File file=new java.io.File("sms.txt");
     	java.io.PrintWriter output= new java.io.PrintWriter(file);
     	SerialToGsm stg = new SerialToGsm(port);	
-        String retStr = new String("");
-        String sss = new String();
-        String alarmNumber = new String("+919868289595"); 
+        String retStr = new String(""); 
         retStr = stg.checkSms();
     	//System.out.println("Hello");
         if (retStr.indexOf("ERROR") == -1) {
@@ -75,7 +73,34 @@ public class SerialToGsm {
 	    System.exit(1);
         }
     }
-
+/*    public boolean compare(Object object)
+    {
+    	if(object instanceof SerialToGsm)
+    	{
+    		SerialToGsm obj = (SerialToGsm) object;
+    		if(readSms().equals(obj.readSms()))
+    		{
+    			if(readSmsSender().equals(obj.readSmsSender()))
+    			{
+    				return true;
+    			}
+    			else
+    			{
+    				return false;
+    			}
+    		}
+    		else
+    		{
+    			return false;
+    		}
+    	}
+    	else
+    	{
+    		return false;	
+    	}
+    	
+    }
+*/
     public boolean equals(Object object) 
     {
     if (object instanceof SerialToGsm)
@@ -216,11 +241,13 @@ public class SerialToGsm {
         return "OK";
     }
 
-    public String readSmsSender() {
+    public String readSmsSender() 
+    {
         return senderNum;
     }
     
-    public String readSms() {
+    public String readSms() 
+    {
         return smsMsg;
     }
     
