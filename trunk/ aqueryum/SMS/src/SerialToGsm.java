@@ -15,6 +15,7 @@ public class SerialToGsm {
     String lastIndexRead;
     String senderNum;
     String smsMsg;
+    String portnum;
     ComputeSmsData sms = new ComputeSmsData();
 
     
@@ -49,7 +50,8 @@ public class SerialToGsm {
 	SerialToGsm(String porta) {
         try {
 //            CommPortIdentifier portId = CommPortIdentifier.getPortIdentifier("serial0");
-            CommPortIdentifier portId = CommPortIdentifier.getPortIdentifier(porta);
+            portnum=porta;
+        	CommPortIdentifier portId = CommPortIdentifier.getPortIdentifier(porta);
             SerialPort sp = (SerialPort)portId.open("Sms_GSM", 0);
             sp.setSerialPortParams(9600, SerialPort.DATABITS_8, SerialPort.STOPBITS_1, SerialPort.PARITY_NONE);
             sp.setFlowControlMode(sp.FLOWCONTROL_NONE);
@@ -74,6 +76,26 @@ public class SerialToGsm {
         }
     }
 
+    public boolean equals(Object object) 
+    {
+    if (object instanceof SerialToGsm)
+    {           
+    	SerialToGsm obj = (SerialToGsm) object;
+    	if(getport().equals(obj.getport()))
+    	{
+    		return true ;
+    	}
+    	else
+    	{
+    		return false;
+    	}
+    }
+    else
+    {
+    	return false;	
+    }
+    }
+    
     private String sendAndRecv(String s, int timeout) {
         try {
             // clean serial port input buffer
@@ -207,5 +229,9 @@ public class SerialToGsm {
             return sendAndRecv("AT+CMGD=" + lastIndexRead, 30);
         }
         return ("ERROR");
+    }
+    public String getport()
+    {
+    	return portnum;
     }
 }
