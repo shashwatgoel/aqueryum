@@ -34,14 +34,29 @@ public class SerialToGsm {
         retStr = stg.checkSms();
     	//System.out.println("Hello");
         if (retStr.indexOf("ERROR") == -1) {
-            System.out.println("Phone # of sender: " + stg.readSmsSender());
+            //System.out.println("Phone # of sender: " + stg.readSmsSender());
             message=stg.readSms();
             output.println(message);
             //System.out.println("Recv'd SMS message: " + message);
             
         }
         output.close();
-        Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler " + "C:\\Python25\\dist\\code1.exe");
+        Runtime run = Runtime.getRuntime();
+        try {
+        
+            Process pp=run.exec("C:\\Python25\\dist\\code1.exe");
+            BufferedReader in =new BufferedReader(new InputStreamReader(pp.getErrorStream()));
+            String line;
+            while ((line = in.readLine()) != null) {
+                System.out.println(line);
+            }
+            int exitVal = pp.waitFor();
+            System.out.println("Process exitValue: " + exitVal);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(e.getMessage());
+        }
+        //Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler " + "C:\\Python25\\dist\\code1.exe");
         stg.success=1;
         System.exit(1);
     }
