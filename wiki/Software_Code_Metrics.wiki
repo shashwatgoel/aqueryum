@@ -1,7 +1,6 @@
 #labels Featured,Phase-Implementation,Phase-QA,Phase-Requirements
-
 == TOOLS USED ==
-  #  LocMetrics [Open Source tool]
+  #  LocMetrics (Open Source tool)
   #  JHawk5 for eclipse [Plug-in for calculating software metrics graphically]
   #  net.sourceforge.metrics [Java Community official plug-in for code metrics in Eclipse]
   #  Pylint [open source tool for computing metrics in python code]
