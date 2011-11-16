@@ -1,0 +1,11 @@
+#labels Phase-Implementation,Phase-Requirements
+== CODE REVIEW ==
+
+  #  Conducted by group of programmers for programmers (i.e. review done by peers)
+  #  The focus was on identifying problems, not resolving them
+  #  Review data was recorded and used for monitoring the effectiveness
+  #  Self Review Logs updated on Google Code project page
+
+----
+
+For writing code we have followed _*Incremental Coding Process*_
