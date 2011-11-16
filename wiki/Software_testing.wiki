@@ -6,9 +6,9 @@ Hence, goal should not be to reduce coding cost, but testing and maintenance cos
 We tried to write as easy a code as possible because different members had different roles viz. - coders, maintainers, developers, testers ; and had to go through the code many a times.
 
 
-==COMMON GOAL==
-1. Minimize effort
-2. Minimize size
-3. Minimize memory
-4. Maximize clarity
-5. Maximize output clarity
+=COMMON GOAL=
+#1. Minimize effort
+#2. Minimize size
+#3. Minimize memory
+#4. Maximize clarity
+#5. Maximize output clarity
